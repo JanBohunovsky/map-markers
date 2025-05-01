@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "dev.bohush.mapmarkers.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MapStateInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

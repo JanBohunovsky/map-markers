@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "map-markers",
+	"version": "${version}",
+	"name": "Map Markers",
+	"description": "An easy way to add built-in markers to maps using commands.",
+	"authors": [
+		"Bohush"
+	],
+	"contact": {
+		"homepage": "https://github.com/JanBohunovsky/",
+		"issues": "https://github.com/JanBohunovsky/map-markers/issues",
+		"sources": "https://github.com/JanBohunovsky/map-markers"
+	},
+	"license": "MIT",
+	"icon": "assets/map-markers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.bohush.mapmarkers.MapMarkers"
+		]
+	},
+	"mixins": [
+		"map-markers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
