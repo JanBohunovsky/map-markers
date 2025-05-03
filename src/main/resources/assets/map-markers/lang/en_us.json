@@ -2,10 +2,12 @@
 	"map-markers.error.marker.type.unknown": "Unknown marker type.",
 	"map-markers.error.marker.type.not_supported": "This marker type is not supported.",
 	"map-markers.error.marker.not_found": "%1$s does not have a marker with given ID.",
-	"map-markers.error.player.out_of_bounds": "You must be in the map's area to add a marker at your position.",
-	"map-markers.error.item.not_filled_map": "You must be holding a map in your main hand to use this command.",
+	"map-markers.error.player.out_of_bounds": "You are not in the map's area.",
+	"map-markers.error.item.not_filled_map": "The item in your %1$s is not a map.",
+	"map-markers.error.item.no_map_state": "Failed to load map state from %1$s.",
 	"map-markers.error.item.explorer_map.not_supported": "Explorer maps are not supported.",
 	"map-markers.error.item.locked_map.not_supported": "The map is locked.",
+	"map-markers.error.sync.different_id": "Maps have different map ID.",
 	"map-markers.text.marker_detail": "ID: %1$s",
 	"map-markers.text.added_marker": "Added %1$s marker at your position to %2$s.",
 	"map-markers.text.no_markers": "%1$s has no markers.",
@@ -13,5 +15,7 @@
 	"map-markers.text.marker_list.entry": "%1$s at X: %2$d, Z: %3$d",
 	"map-markers.text.marker_list.remove": "%1$s %2$s marker from %3$s.",
 	"map-markers.text.marker_list.remove.action": "Remove",
-	"map-markers.text.removed_marker": "Removed %1$s marker from %2$s."
+	"map-markers.text.removed_marker": "Removed %1$s marker from %2$s.",
+	"map-markers.text.slot.mainhand": "main hand",
+	"map-markers.text.slot.offhand": "offhand"
 }

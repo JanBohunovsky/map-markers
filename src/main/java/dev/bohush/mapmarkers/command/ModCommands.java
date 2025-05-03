@@ -23,5 +23,6 @@ public class ModCommands {
 		modNode.addChild(AddMarkerCommand.build());
 		modNode.addChild(ListMarkersCommand.build());
 		modNode.addChild(RemoveMarkerCommand.build());
+		modNode.addChild(SyncMarkersCommand.build());
 	}
 }

@@ -10,7 +10,6 @@ Lists all markers that are stored in the map, with an option to remove them.
 
 Syntax: `/mapmarkers list`
 
-
 ### Add marker
 Adds a marker of the specified type at your position to the map.  
 Note: You must be in the map's area to add the marker.
@@ -28,3 +27,9 @@ Syntax: `/mapmarkers remove <id>`
 Argument `id`:
 - The ID of the stored marker.
 - You can find the marker ID by hovering over the marker type in the listing.
+
+### Synchronise markers
+Synchronises the markers between the maps in your main hand and your offhand. The maps must have the same map ID.  
+This command is useful if you have duplicated a map and then added a marker to only one copy, which made the maps unstackable.
+
+Syntax: `/mapmarkers sync`

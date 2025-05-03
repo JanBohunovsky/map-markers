@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture;
 public class MarkerIdSuggestionProvider implements SuggestionProvider<ServerCommandSource> {
 
 	@Override
-	public CompletableFuture<Suggestions> getSuggestions(CommandContext<ServerCommandSource> context, SuggestionsBuilder builder) throws CommandSyntaxException {
+	public CompletableFuture<Suggestions> getSuggestions(CommandContext<ServerCommandSource> context, SuggestionsBuilder builder) {
 		var source = context.getSource();
 		var player = source.getPlayer();
 		var world = source.getWorld();
