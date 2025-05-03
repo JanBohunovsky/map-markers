@@ -45,8 +45,8 @@ public class ListMarkersCommand implements Command<ServerCommandSource> {
 					.append(Text.literal("[❌] ")
 						.styled(style -> style
 							.withColor(Formatting.RED)
-							.withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, RemoveMarkerCommand.buildString(marker.id())))
-							.withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
+							.withClickEvent(new ClickEvent.RunCommand(RemoveMarkerCommand.buildString(marker.id())))
+							.withHoverEvent(new HoverEvent.ShowText(
 								Text.translatable("map-markers.text.marker_list.remove",
 										Text.translatable("map-markers.text.marker_list.remove.action")
 											.formatted(Formatting.RED),

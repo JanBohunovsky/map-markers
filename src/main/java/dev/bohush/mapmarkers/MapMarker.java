@@ -19,9 +19,7 @@ public record MapMarker(String id, RegistryEntry<MapDecorationType> type, double
 		return Text.literal(getTypeId().getPath())
 			.styled(style -> style
 				.withColor(Formatting.AQUA)
-				.withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
-					Text.translatable("map-markers.text.marker_detail", id)))
-			);
+				.withHoverEvent(new HoverEvent.ShowText(Text.translatable("map-markers.text.marker_detail", id))));
 	}
 
 	public Text getFormattedText() {
